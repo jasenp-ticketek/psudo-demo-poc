@@ -10,6 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:australia-open": "crossenv THEME_TEMPLATE=AustraliaOpen webpack -p",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
